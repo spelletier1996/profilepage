@@ -11,7 +11,7 @@ pygmentsstyle = "bw"
 pygmentscodefences = true
 pygmentscodefencesguesssyntax = true
 
-disqusShortname = "yourdiscussshortname"
+#disqusShortname = "yourdiscussshortname"
 
 [params]
     author = "Sebastian Pelletier"
@@ -77,7 +77,4 @@ disqusShortname = "yourdiscussshortname"
     name = "Interests"
     weight = 4
     url = "interests/"
-[[menu.main]]
-    name = "Contact"
-    weight = 5
-    url = "contact/"
+
