@@ -33,3 +33,8 @@
         <button type="submit" value="Submit" id="Form-submit">Submit</button>
     </div>
 </form>
+
+// style.css
+.hpot {
+  display: none;
+}
