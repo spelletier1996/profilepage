@@ -1,4 +1,4 @@
-baseurl = "sebastianpelletier.ca/"
+baseurl = "https://sebastianpelletier.ca/"
 title = "SebastianPelletier"
 theme = "hugo-coder"
 languagecode = "en"
