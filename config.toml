@@ -1,5 +1,5 @@
-baseurl = "http://www.example.com"
-title = "johndoe"
+baseurl = "sebastianpelletier.ca/"
+title = "SebastianPelletier"
 theme = "hugo-coder"
 languagecode = "en"
 defaultcontentlanguage = "en"
@@ -14,18 +14,18 @@ pygmentscodefencesguesssyntax = true
 disqusShortname = "yourdiscussshortname"
 
 [params]
-    author = "John Doe"
-    info = "Full Stack DevOps and Magician"
-    description = "John Doe's personal website"
-    keywords = "blog,developer,personal"
-    avatarurl = "images/avatar.jpg"
+    author = "Sebastian Pelletier"
+    info = "Mechatronics Engineer"
+    description = "Sebastian's personal website"
+    keywords = "Engineer,Robotics,Personal,Portfolio,About"
+    avatarurl = "https://i.imgur.com/r58aYSM.jpg"
 
     favicon_32 = "/img/favicon-32x32.png"
     favicon_16 = "/img/favicon-16x16.png"
 
-    footercontent = "Enter a text here."
+    #footercontent = "Enter a text here."
 
-    hidecredits = false
+    hidecredits = true
     hidecopyright = false
 
     rtl = false
@@ -35,27 +35,45 @@ disqusShortname = "yourdiscussshortname"
 
 # Social links
 [[params.social]]
+    name = "email"
+    icon = "far fa-envelope fa-2x"
+    weight = 1
+    url = "https://mail.google.com/mail/?view=cm&fs=1&to=spelletier1996@gmail.com"
+[[params.social]]
+    name = "linkedin"
+    icon = "fab fa-linkedin fa-2x"
+    weight = 2
+    url = "https://www.linkedin.com/in/sebastianpelletier/"
+[[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
-    weight = 1
-    url = "https://github.com/johndoe/"
-[[params.social]]
-    name = "Gitlab"
-    icon = "fab fa-gitlab fa-2x"
-    weight = 2
-    url = "https://gitlab.com/johndoe/"
-[[params.social]]
-    name = "Twitter"
-    icon = "fab fa-twitter fa-2x"
     weight = 3
-    url = "https://twitter.com/johndoe/"
+    url = "https://github.com/spelletier1996/"
+[[params.social]]
+    name = "facebook"
+    icon = "fab fa-facebook fa-2x"
+    weight = 4
+    url = "https://www.facebook.com/sebastian.pelletier"
+[[params.social]]
+    name = "facebook"
+    icon = "fab fa-instagram fa-2x"
+    weight = 5
+    url = "https://www.instagram.com/sebastian_pelletier/"
 
 # Menu links
 [[menu.main]]
-    name = "Blog"
+    name = "Education"
     weight = 1
-    url  = "/posts/"
+    url  = "education/"
 [[menu.main]]
-    name = "About"
+    name = "Experiences"
     weight = 2
-    url = "/about/"
+    url = "experiences/"
+[[menu.main]]
+    name = "Projects"
+    weight = 3
+    url = "projects/"
+[[menu.main]]
+    name = "Interests"
+    weight = 4
+    url = "interests/"
