@@ -61,20 +61,5 @@ pygmentscodefencesguesssyntax = true
     url = "https://www.instagram.com/sebastian_pelletier/"
 
 # Menu links
-[[menu.main]]
-    name = "Education"
-    weight = 1
-    url  = "education/"
-[[menu.main]]
-    name = "Experiences"
-    weight = 2
-    url = "experiences/"
-[[menu.main]]
-    name = "Projects"
-    weight = 3
-    url = "projects/"
-[[menu.main]]
-    name = "Interests"
-    weight = 4
-    url = "interests/"
+
 
